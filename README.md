@@ -1,7 +1,8 @@
 awslogger
 ---------
 
-A CLI tool to send lines from stdin as messages to AWS CloudWatch Logs.
+A CLI tool to send lines from stdin as messages to [AWS CloudWatch
+Logs](http://docs.aws.amazon.com/AmazonCloudWatch/latest/DeveloperGuide/WhatIsCloudWatchLogs.html).
 
 Will create the log group and log stream if necessary (and if the correct
 permissions are available). Loads credentials in the same way the AWS SDKs do
