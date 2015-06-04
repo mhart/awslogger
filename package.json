@@ -1,0 +1,19 @@
+{
+  "name": "awslogger",
+  "version": "0.9.0",
+  "description": "A CLI tool to send lines from stdin as messages to AWS CloudWatch Logs",
+  "main": "index.js",
+  "bin": "cli.js",
+  "repository": "mhart/awslogger",
+  "keywords": [
+    "aws",
+    "cloudwatch",
+    "logs"
+  ],
+  "author": "Michael Hart <michael.hart.au@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "aws4": "^1.0.1",
+    "awscred": "^1.1.0"
+  }
+}
